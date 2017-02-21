@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+}
+#container {
+	display:flex;
+	flex-wrap: wrap; /*wraps the direct decendents when they can't fit*/
+	justify-content: space-between;
+}
+
+.legislator {
+	flex: 1 0 30%; /*flex grow, shrink & flex-basis values*/
+	background: #C5E1A5;
+	border: 8px solid white;
+	padding: 13px;
+}
