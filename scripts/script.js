@@ -27,6 +27,6 @@ function handleResponse(apiResponse) {
     containerNode.innerHTML = stringHTML
 }
 
-var promise = $.getJSON('https://congress.api.sunlightfoundation.com/legislators')
+var promise = $.getJSON('https://congress.api.sunlightfoundation.com/legislators?apikey=123&callback=?')
 
 promise.then(handleResponse)
